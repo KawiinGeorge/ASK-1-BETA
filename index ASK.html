@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ASAS SAINS KOMPUTER (ASK) — 1 BETA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <img src="school-logo.png" alt="SMK Tun Perak School Logo" class="school-logo">
+  <div class="badge">1 BETA</div>
+  <h1>ASAS SAINS KOMPUTER (ASK)</h1>
+  <p>SMK TUN PERAK  | BEA 7623</p>
+</header>
+
+<main>
+  <section class="toolbar">
+    <input id="search" type="search" placeholder="Search student name...">
+    <button id="save">Save Changes</button>
+    <button id="clear">Clear Saved Data</button>
+  </section>
+
+  <p class="hint">All <strong>No. Laptop</strong>, <strong>Hari</strong>, <strong>Tarikh</strong> and <strong>Masa</strong> fields are editable. Changes are saved in this browser.</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Nama Pelajar</th>
+          <th>No. Laptop</th>
+          <th>Hari</th>
+          <th>Tarikh</th>
+          <th>Masa</th>
+        </tr>
+      </thead>
+      <tbody id="studentTable">
+        <tr>
+          <td>1</td>
+          <td>ARISHVAN A/L SHANMUGAVELU</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>KAWIIN GEORGE A/L NELSON GEORGE</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>MUHAMMAD AQIL SYAMEL BIN ABDULLAH</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>MUHAMMAD HASHIQ BIN HETHAIYATHULLA</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>WONG CHEE KIAN</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>IZZARA QALEESYA BINTI NORDIN</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>MEDINA AWATIF BINTI KHAIRUL AFFENDY</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>NUR IMANINA QAIREEN BINTI MOHD REDUAN</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>FAIQ IZZUDDIN BIN MOHD AZHARI</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>LEE ZHE KANG</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>MUHAMMAD DANISH AQIF BIN HAMIDUL MUHSI</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>CHOO ZYE KEI</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>NG YING SIAN</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>NUR ZARA ARISSA BINTI MOHAMAD ALWI</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>AHMAD FIRAS IYAD BIN MOHD DZUULKARRNAIEN</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>MUHAMMAD AFIF NAUFAL BIN MOHD BORHAN</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>MUHAMMAD DANISH ZAFRAN BIN SUHAIMEE</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>MUHAMMAD TAUFIQ BIN MOHD TAMRIN</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>DAHLIA KHAYLA BINTI AZMADI</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>KIRTHANA A/P SAMINATHAN</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td>NOOR SARAA NYSSA BINTI OMAR SHARIFF</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>NURHANNA SUHADA BINTI HAFIZUL HALMI</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>23</td>
+          <td>WONG MEI XUAN</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>24</td>
+          <td>ALI IMRAN BIN MOHD HATTA</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td>KASHVIN A/L VIJAI</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>26</td>
+          <td>MUHAMMAD AQIL FAYYADH BIN ALI AKMAL</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>27</td>
+          <td>MUHAMMAD EMIR QUSHAYYI BIN MOHD AZRUL HISHAM</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>28</td>
+          <td>WAFIY BIN FATTAH</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>FATIMAH NUR AZZAHRA BINTI MOHD REDZUAN</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>30</td>
+          <td>LEE ZHI YING</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>31</td>
+          <td>NUR ANNISA NASUHA BINTI MOHD SUHAIMI</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>32</td>
+          <td>YAP YI TONG</td>
+          <td><input type="text" placeholder="Enter laptop no."></td>
+          <td><input type="text" placeholder="Enter day"></td>
+          <td><input type="date"></td>
+          <td><input type="time"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
